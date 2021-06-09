@@ -14,9 +14,9 @@ body{
 body.light{
     background-image: url(images/bg-desktop-light.jpg); /*No reconoce img*/
     background: hsl(0, 17%, 76%);
-    /* background-repeat: no-repeat;
+    background-repeat: no-repeat;
     width: 100%;
-    background-size: 100%; */
+    background-size: 100%;
 }
 
 .bg-dark{
@@ -189,6 +189,8 @@ body.light .task-added p{
 
     body.light{
         background-image: url(images/bg-mobile-light.jpg);
+        background-repeat: no-repeat;
+        
     }
 
     .cross{
