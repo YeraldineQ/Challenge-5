@@ -127,7 +127,7 @@ function filterMyTask(e){
             
             /*Estilo del focus */
             e.target.classList.add("checked");
-            e.target.nextElementSibling.classList.add("checked");
+            e.target.nextElementSibling.classList.remove("checked");
             e.target.nextElementSibling.nextElementSibling.classList.remove("checked");
 
         }else if(e.target.id == "active"){
